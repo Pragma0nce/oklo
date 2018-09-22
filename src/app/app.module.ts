@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { UiModule } from './ui/ui.module';
+import { ChartsModule } from 'ng2-charts';
 
 @NgModule({
   declarations: [
@@ -10,7 +11,8 @@ import { UiModule } from './ui/ui.module';
   ],
   imports: [
     BrowserModule,
-    UiModule
+    UiModule,
+    ChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
